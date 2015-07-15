@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btEasyWeather">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="location" type="C" size="161">
+			<default value="0" />
+		</field>
+		<field name="unit" type="C" size="1">
+			<default value="0" />
+		</field>
+		<field name="color" type="C" size="30">
+			<default value="0" />
+		</field>
+		<field name="size" type="I" size="3">
+			<default value="0" />
+		</field>
+		<field name="showLocation" type="C" size="1">
+			<default value="0" />
+		</field>
+	</table>
+</schema>
